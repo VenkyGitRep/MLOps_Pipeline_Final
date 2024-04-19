@@ -15,7 +15,7 @@ from src.dateformat import date_format
 from src.groupby import groupby
 from src.outliers import outlier_handler
 from src.splitdata import split_data
-
+from src.create_openpyxl import create_files_from_sheets
 
 
 conf.set('core', 'enable_xcom_pickling', 'True')
@@ -52,7 +52,7 @@ unzip_file_task = PythonOperator(
 
 create_newfile_task = PythonOperator(
     task_id='create_newfile_task',
-    python_callable=create_newfile,
+    python_callable=create_files_from_sheets,
     op_kwargs={
         'input': '{{ ti.xcom_pull(task_ids="unzip_file_task") }}',
     },

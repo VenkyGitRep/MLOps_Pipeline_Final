@@ -1,0 +1,727 @@
+[2024-04-19T01:18:49.346+0000] {processor.py:161} INFO - Started process (PID=1900) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:18:49.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:18:49.349+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:18:49.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:18:50.394+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:18:50.472+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:18:50.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:18:50.477+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:18:50.477+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:18:50.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.146 seconds
+[2024-04-19T01:19:20.807+0000] {processor.py:161} INFO - Started process (PID=1919) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:19:20.811+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:19:20.812+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:19:20.812+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:19:21.714+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:19:21.735+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:19:21.735+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:19:21.741+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:19:21.741+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:19:21.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.967 seconds
+[2024-04-19T01:19:52.185+0000] {processor.py:161} INFO - Started process (PID=1938) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:19:52.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:19:52.193+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:19:52.192+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:19:53.121+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:19:53.154+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:19:53.153+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:19:53.161+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:19:53.161+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:19:53.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.997 seconds
+[2024-04-19T01:20:23.862+0000] {processor.py:161} INFO - Started process (PID=1957) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:20:23.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:20:23.866+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:20:23.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:20:24.882+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:20:24.901+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:20:24.901+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:20:24.907+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:20:24.907+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:20:24.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.077 seconds
+[2024-04-19T01:20:55.286+0000] {processor.py:161} INFO - Started process (PID=1982) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:20:55.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:20:55.290+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:20:55.289+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:20:56.344+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:20:56.365+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:20:56.365+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:20:56.371+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:20:56.371+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:20:56.379+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.098 seconds
+[2024-04-19T01:21:26.668+0000] {processor.py:161} INFO - Started process (PID=2001) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:21:26.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:21:26.674+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:21:26.673+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:21:27.667+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:21:27.743+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:21:27.742+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:21:27.757+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:21:27.757+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:21:27.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.109 seconds
+[2024-04-19T01:21:58.115+0000] {processor.py:161} INFO - Started process (PID=2020) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:21:58.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:21:58.120+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:21:58.120+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:21:59.263+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:21:59.290+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:21:59.289+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:21:59.296+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:21:59.296+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:21:59.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.198 seconds
+[2024-04-19T01:22:29.563+0000] {processor.py:161} INFO - Started process (PID=2039) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:22:29.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:22:29.567+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:22:29.566+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:22:30.493+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:22:30.509+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:22:30.509+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:22:30.515+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:22:30.514+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:22:30.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.968 seconds
+[2024-04-19T01:23:01.102+0000] {processor.py:161} INFO - Started process (PID=2058) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:23:01.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:23:01.111+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:23:01.111+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:23:02.115+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:23:02.134+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:23:02.134+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:23:02.140+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:23:02.140+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:23:02.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.061 seconds
+[2024-04-19T01:23:32.613+0000] {processor.py:161} INFO - Started process (PID=2077) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:23:32.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:23:32.620+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:23:32.619+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:23:33.511+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:23:33.529+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:23:33.529+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:23:33.534+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:23:33.534+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:23:33.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.939 seconds
+[2024-04-19T01:24:04.055+0000] {processor.py:161} INFO - Started process (PID=2096) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:24:04.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:24:04.060+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:24:04.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:24:05.134+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:24:05.160+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:24:05.160+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:24:05.172+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:24:05.172+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:24:05.180+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.134 seconds
+[2024-04-19T01:24:35.509+0000] {processor.py:161} INFO - Started process (PID=2115) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:24:35.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:24:35.512+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:24:35.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:24:36.431+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:24:36.451+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:24:36.451+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:24:36.457+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:24:36.457+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:24:36.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.960 seconds
+[2024-04-19T01:25:06.990+0000] {processor.py:161} INFO - Started process (PID=2134) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:25:06.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:25:06.994+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:25:06.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:25:07.870+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:25:07.889+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:25:07.889+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:25:07.894+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:25:07.894+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:25:07.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.919 seconds
+[2024-04-19T01:25:38.434+0000] {processor.py:161} INFO - Started process (PID=2153) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:25:38.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:25:38.437+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:25:38.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:25:39.676+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:25:39.695+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:25:39.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:25:39.707+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:25:39.707+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:25:39.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.305 seconds
+[2024-04-19T01:26:09.932+0000] {processor.py:161} INFO - Started process (PID=2172) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:26:09.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:26:09.939+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:26:09.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:26:11.151+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:26:11.176+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:26:11.176+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:26:11.183+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:26:11.183+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:26:11.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.276 seconds
+[2024-04-19T01:26:41.584+0000] {processor.py:161} INFO - Started process (PID=2191) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:26:41.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:26:41.589+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:26:41.588+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:26:42.783+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:26:42.813+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:26:42.812+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:26:42.820+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:26:42.820+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:26:42.829+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.256 seconds
+[2024-04-19T01:27:12.993+0000] {processor.py:161} INFO - Started process (PID=2210) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:27:12.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:27:12.996+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:27:12.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:27:13.999+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:27:14.017+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:27:14.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:27:14.023+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:27:14.023+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:27:14.032+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.043 seconds
+[2024-04-19T01:27:44.481+0000] {processor.py:161} INFO - Started process (PID=2229) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:27:44.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:27:44.485+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:27:44.485+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:27:45.654+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:27:45.677+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:27:45.677+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:27:45.693+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:27:45.693+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:27:45.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.244 seconds
+[2024-04-19T01:28:15.875+0000] {processor.py:161} INFO - Started process (PID=2248) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:28:15.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:28:15.883+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:28:15.882+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:28:16.867+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:28:16.888+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:28:16.888+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:28:16.896+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:28:16.896+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:28:16.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.048 seconds
+[2024-04-19T01:28:47.303+0000] {processor.py:161} INFO - Started process (PID=2267) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:28:47.306+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:28:47.308+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:28:47.307+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:28:48.240+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:28:48.275+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:28:48.275+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:28:48.281+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:28:48.281+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:28:48.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.993 seconds
+[2024-04-19T01:29:18.806+0000] {processor.py:161} INFO - Started process (PID=2286) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:29:18.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:29:18.810+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:29:18.810+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:29:19.781+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:29:19.800+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:29:19.800+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:29:19.807+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:29:19.807+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:29:19.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.017 seconds
+[2024-04-19T01:29:50.297+0000] {processor.py:161} INFO - Started process (PID=2305) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:29:50.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:29:50.302+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:29:50.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:29:51.238+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:29:51.260+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:29:51.259+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:29:51.266+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:29:51.266+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:29:51.274+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.984 seconds
+[2024-04-19T01:30:21.794+0000] {processor.py:161} INFO - Started process (PID=2324) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:30:21.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:30:21.801+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:30:21.801+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:30:22.808+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:30:22.842+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:30:22.841+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:30:22.848+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:30:22.848+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:30:22.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.072 seconds
+[2024-04-19T01:30:53.282+0000] {processor.py:161} INFO - Started process (PID=2343) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:30:53.285+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:30:53.291+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:30:53.287+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:30:54.361+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:30:54.388+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:30:54.388+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:30:54.396+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:30:54.396+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:30:54.405+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.131 seconds
+[2024-04-19T01:31:18.766+0000] {processor.py:161} INFO - Started process (PID=2362) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:31:18.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:31:18.773+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:31:18.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:31:19.816+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:31:19.892+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:31:19.892+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:31:19.904+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:31:19.904+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:31:19.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.161 seconds
+[2024-04-19T01:31:50.323+0000] {processor.py:161} INFO - Started process (PID=2381) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:31:50.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:31:50.331+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:31:50.329+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:31:51.564+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:31:51.582+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:31:51.582+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:31:51.589+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:31:51.589+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:31:51.596+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.289 seconds
+[2024-04-19T01:32:21.766+0000] {processor.py:161} INFO - Started process (PID=2400) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:32:21.770+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:32:21.772+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:32:21.771+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:32:22.770+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:32:22.792+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:32:22.792+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:32:22.797+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:32:22.797+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:32:22.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.049 seconds
+[2024-04-19T01:32:53.250+0000] {processor.py:161} INFO - Started process (PID=2418) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:32:53.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:32:53.258+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:32:53.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:32:54.232+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:32:54.261+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:32:54.260+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:32:54.268+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:32:54.268+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:32:54.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.036 seconds
+[2024-04-19T01:33:24.882+0000] {processor.py:161} INFO - Started process (PID=2437) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:33:24.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:33:24.898+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:33:24.898+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:33:26.023+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:33:26.059+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:33:26.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:33:26.066+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:33:26.066+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:33:26.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.218 seconds
+[2024-04-19T01:33:56.318+0000] {processor.py:161} INFO - Started process (PID=2456) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:33:56.321+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:33:56.322+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:33:56.322+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:33:57.371+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:33:57.394+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:33:57.394+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:33:57.403+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:33:57.402+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:33:57.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.098 seconds
+[2024-04-19T01:34:27.844+0000] {processor.py:161} INFO - Started process (PID=2481) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:34:27.847+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:34:27.849+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:34:27.848+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:34:28.851+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:34:28.875+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:34:28.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:34:28.882+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:34:28.882+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:34:28.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.056 seconds
+[2024-04-19T01:34:59.323+0000] {processor.py:161} INFO - Started process (PID=2500) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:34:59.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:34:59.329+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:34:59.328+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:00.770+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:00.830+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:00.829+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:35:00.838+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:00.838+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:35:00.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.540 seconds
+[2024-04-19T01:35:04.459+0000] {processor.py:161} INFO - Started process (PID=2513) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:04.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:35:04.476+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:04.474+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:05.848+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:05.948+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:05.947+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:35:05.955+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:05.955+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:35:05.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.518 seconds
+[2024-04-19T01:35:36.669+0000] {processor.py:161} INFO - Started process (PID=2532) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:36.674+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:35:36.676+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:36.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:38.106+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:35:38.138+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:38.137+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:35:38.146+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:35:38.146+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:35:38.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.511 seconds
+[2024-04-19T01:36:08.640+0000] {processor.py:161} INFO - Started process (PID=2551) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:36:08.649+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:36:08.652+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:36:08.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:36:09.549+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:36:09.567+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:36:09.567+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:36:09.573+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:36:09.573+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:36:09.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.956 seconds
+[2024-04-19T01:36:39.992+0000] {processor.py:161} INFO - Started process (PID=2570) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:36:39.999+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:36:40.002+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:36:40.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:36:40.951+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:36:40.972+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:36:40.972+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:36:40.979+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:36:40.979+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:36:40.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.010 seconds
+[2024-04-19T01:37:11.553+0000] {processor.py:161} INFO - Started process (PID=2589) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:37:11.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:37:11.559+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:37:11.558+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:37:12.556+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:37:12.587+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:37:12.587+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:37:12.593+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:37:12.593+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:37:12.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.056 seconds
+[2024-04-19T01:37:42.973+0000] {processor.py:161} INFO - Started process (PID=2608) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:37:42.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:37:42.979+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:37:42.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:37:43.938+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:37:43.965+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:37:43.964+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:37:43.971+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:37:43.971+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:37:43.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.015 seconds
+[2024-04-19T01:38:14.393+0000] {processor.py:161} INFO - Started process (PID=2627) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:38:14.397+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:38:14.400+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:38:14.398+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:38:15.338+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:38:15.361+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:38:15.361+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:38:15.368+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:38:15.368+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:38:15.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.991 seconds
+[2024-04-19T01:38:45.874+0000] {processor.py:161} INFO - Started process (PID=2646) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:38:45.877+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:38:45.878+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:38:45.878+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:38:46.901+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:38:46.933+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:38:46.933+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:38:46.940+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:38:46.940+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:38:46.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.082 seconds
+[2024-04-19T01:39:17.411+0000] {processor.py:161} INFO - Started process (PID=2665) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:39:17.415+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:39:17.419+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:39:17.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:39:18.383+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:39:18.415+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:39:18.414+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:39:18.422+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:39:18.421+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:39:18.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.034 seconds
+[2024-04-19T01:39:48.967+0000] {processor.py:161} INFO - Started process (PID=2684) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:39:48.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:39:48.971+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:39:48.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:39:49.895+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:39:49.916+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:39:49.916+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:39:49.922+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:39:49.922+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:39:49.932+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.971 seconds
+[2024-04-19T01:40:20.250+0000] {processor.py:161} INFO - Started process (PID=2703) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:40:20.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:40:20.254+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:40:20.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:40:21.245+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:40:21.264+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:40:21.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:40:21.269+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:40:21.269+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:40:21.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.033 seconds
+[2024-04-19T01:40:51.671+0000] {processor.py:161} INFO - Started process (PID=2722) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:40:51.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:40:51.677+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:40:51.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:40:52.629+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:40:52.656+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:40:52.656+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:40:52.662+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:40:52.662+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:40:52.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.016 seconds
+[2024-04-19T01:41:23.118+0000] {processor.py:161} INFO - Started process (PID=2741) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:41:23.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:41:23.123+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:41:23.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:41:24.097+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:41:24.117+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:41:24.116+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:41:24.123+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:41:24.123+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:41:24.131+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.036 seconds
+[2024-04-19T01:41:54.539+0000] {processor.py:161} INFO - Started process (PID=2760) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:41:54.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:41:54.543+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:41:54.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:41:55.657+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:41:55.685+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:41:55.685+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:41:55.693+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:41:55.693+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:41:55.701+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.185 seconds
+[2024-04-19T01:42:25.990+0000] {processor.py:161} INFO - Started process (PID=2778) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:42:25.997+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:42:26.000+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:42:25.999+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:42:26.958+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:42:26.979+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:42:26.979+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:42:26.986+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:42:26.986+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:42:26.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.016 seconds
+[2024-04-19T01:42:57.514+0000] {processor.py:161} INFO - Started process (PID=2797) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:42:57.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:42:57.521+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:42:57.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:42:58.451+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:42:58.476+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:42:58.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:42:58.482+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:42:58.482+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:42:58.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.983 seconds
+[2024-04-19T01:43:29.101+0000] {processor.py:161} INFO - Started process (PID=2816) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:43:29.108+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:43:29.110+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:43:29.110+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:43:30.071+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:43:30.093+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:43:30.093+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:43:30.099+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:43:30.099+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:43:30.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.026 seconds
+[2024-04-19T01:44:00.708+0000] {processor.py:161} INFO - Started process (PID=2841) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:44:00.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:44:00.714+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:44:00.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:44:01.856+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:44:01.898+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:44:01.898+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:44:01.907+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:44:01.907+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:44:01.917+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.215 seconds
+[2024-04-19T01:44:32.170+0000] {processor.py:161} INFO - Started process (PID=2861) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:44:32.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:44:32.174+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:44:32.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:44:33.186+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:44:33.208+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:44:33.207+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:44:33.214+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:44:33.214+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:44:33.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.062 seconds
+[2024-04-19T01:45:03.633+0000] {processor.py:161} INFO - Started process (PID=2880) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:45:03.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:45:03.647+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:45:03.645+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:45:04.798+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:45:04.834+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:45:04.834+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:45:04.843+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:45:04.843+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:45:04.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.226 seconds
+[2024-04-19T01:45:34.973+0000] {processor.py:161} INFO - Started process (PID=2899) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:45:34.975+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:45:34.984+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:45:34.978+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:45:35.982+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:45:36.014+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:45:36.014+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:45:36.020+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:45:36.020+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:45:36.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.061 seconds
+[2024-04-19T01:46:06.396+0000] {processor.py:161} INFO - Started process (PID=2918) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:46:06.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:46:06.404+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:46:06.402+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:46:07.640+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:46:07.680+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:46:07.679+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:46:07.688+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:46:07.688+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:46:07.699+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.311 seconds
+[2024-04-19T01:46:37.883+0000] {processor.py:161} INFO - Started process (PID=2936) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:46:37.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:46:37.889+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:46:37.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:46:38.936+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:46:38.958+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:46:38.958+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:46:38.964+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:46:38.964+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:46:38.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.098 seconds
+[2024-04-19T01:47:09.363+0000] {processor.py:161} INFO - Started process (PID=2955) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:47:09.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:47:09.367+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:47:09.367+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:47:10.417+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:47:10.451+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:47:10.451+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:47:10.458+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:47:10.458+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:47:10.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.134 seconds
+[2024-04-19T01:47:40.874+0000] {processor.py:161} INFO - Started process (PID=2973) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:47:40.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:47:40.881+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:47:40.880+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:47:41.827+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:47:41.849+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:47:41.849+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:47:41.857+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:47:41.857+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:47:41.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.001 seconds
+[2024-04-19T01:48:12.438+0000] {processor.py:161} INFO - Started process (PID=2992) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:48:12.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:48:12.443+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:48:12.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:48:13.339+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:48:13.362+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:48:13.362+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:48:13.369+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:48:13.369+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:48:13.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.946 seconds
+[2024-04-19T01:48:43.770+0000] {processor.py:161} INFO - Started process (PID=3012) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:48:43.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:48:43.778+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:48:43.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:48:44.820+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:48:44.841+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:48:44.840+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:48:44.848+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:48:44.848+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:48:44.856+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.094 seconds
+[2024-04-19T01:49:15.358+0000] {processor.py:161} INFO - Started process (PID=3031) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:49:15.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:49:15.365+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:49:15.364+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:49:16.362+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:49:16.387+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:49:16.387+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:49:16.394+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:49:16.394+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:49:16.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.057 seconds
+[2024-04-19T01:49:46.944+0000] {processor.py:161} INFO - Started process (PID=3050) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:49:46.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:49:46.954+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:49:46.953+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:49:47.908+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:49:47.934+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:49:47.934+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:49:47.941+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:49:47.940+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:49:47.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.016 seconds
+[2024-04-19T01:50:18.403+0000] {processor.py:161} INFO - Started process (PID=3069) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:50:18.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:50:18.411+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:50:18.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:50:19.355+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:50:19.376+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:50:19.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:50:19.384+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:50:19.383+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:50:19.391+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.001 seconds
+[2024-04-19T01:50:49.823+0000] {processor.py:161} INFO - Started process (PID=3088) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:50:49.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:50:49.829+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:50:49.828+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:50:50.869+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:50:50.906+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:50:50.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:50:50.914+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:50:50.914+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:50:50.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.111 seconds
+[2024-04-19T01:51:21.293+0000] {processor.py:161} INFO - Started process (PID=3107) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:51:21.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:51:21.300+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:51:21.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:51:22.296+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:51:22.322+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:51:22.321+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:51:22.328+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:51:22.328+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:51:22.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.055 seconds
+[2024-04-19T01:51:52.834+0000] {processor.py:161} INFO - Started process (PID=3126) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:51:52.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:51:52.844+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:51:52.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:51:53.832+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:51:53.856+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:51:53.856+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:51:53.863+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:51:53.863+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:51:53.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.046 seconds
+[2024-04-19T01:52:24.333+0000] {processor.py:161} INFO - Started process (PID=3145) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:52:24.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:52:24.341+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:52:24.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:52:25.536+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:52:25.560+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:52:25.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:52:25.568+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:52:25.568+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:52:25.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.253 seconds
+[2024-04-19T01:52:55.773+0000] {processor.py:161} INFO - Started process (PID=3164) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:52:55.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:52:55.779+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:52:55.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:52:56.963+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:52:56.995+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:52:56.995+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:52:57.003+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:52:57.003+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:52:57.014+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.249 seconds
+[2024-04-19T01:53:27.433+0000] {processor.py:161} INFO - Started process (PID=3182) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:53:27.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:53:27.439+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:53:27.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:53:28.498+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:53:28.523+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:53:28.523+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:53:28.530+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:53:28.530+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:53:28.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.114 seconds
+[2024-04-19T01:53:59.029+0000] {processor.py:161} INFO - Started process (PID=3201) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:53:59.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:53:59.034+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:53:59.034+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:53:59.963+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:53:59.980+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:53:59.980+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:53:59.986+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:53:59.986+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:53:59.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.972 seconds
+[2024-04-19T01:54:30.456+0000] {processor.py:161} INFO - Started process (PID=3220) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:54:30.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:54:30.462+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:54:30.461+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:54:31.797+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:54:31.829+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:54:31.829+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:54:31.838+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:54:31.838+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:54:31.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.405 seconds
+[2024-04-19T01:55:02.266+0000] {processor.py:161} INFO - Started process (PID=3239) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:55:02.271+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:55:02.273+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:55:02.272+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:55:03.179+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:55:03.199+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:55:03.199+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:55:03.204+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:55:03.204+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:55:03.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.952 seconds
+[2024-04-19T01:55:33.604+0000] {processor.py:161} INFO - Started process (PID=3258) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:55:33.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:55:33.612+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:55:33.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:55:34.608+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:55:34.628+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:55:34.628+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:55:34.635+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:55:34.635+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:55:34.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.051 seconds
+[2024-04-19T01:56:05.037+0000] {processor.py:161} INFO - Started process (PID=3282) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:56:05.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:56:05.041+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:56:05.041+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:56:05.927+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:56:05.942+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:56:05.942+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:56:05.948+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:56:05.947+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:56:05.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.951 seconds
+[2024-04-19T01:56:36.645+0000] {processor.py:161} INFO - Started process (PID=3301) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:56:36.659+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:56:36.668+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:56:36.665+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:56:37.860+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:56:37.889+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:56:37.889+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:56:37.900+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:56:37.899+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:56:37.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.310 seconds
+[2024-04-19T01:57:08.231+0000] {processor.py:161} INFO - Started process (PID=3319) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:57:08.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:57:08.236+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:57:08.236+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:57:09.248+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:57:09.272+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:57:09.271+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:57:09.278+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:57:09.278+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:57:09.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.063 seconds
+[2024-04-19T01:57:39.675+0000] {processor.py:161} INFO - Started process (PID=3338) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:57:39.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:57:39.683+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:57:39.682+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:57:40.620+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:57:40.642+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:57:40.642+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:57:40.648+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:57:40.648+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:57:40.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.992 seconds
+[2024-04-19T01:58:11.171+0000] {processor.py:161} INFO - Started process (PID=3357) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:58:11.175+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:58:11.176+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:58:11.176+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:58:12.126+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:58:12.157+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:58:12.157+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:58:12.164+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:58:12.164+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:58:12.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.011 seconds
+[2024-04-19T01:58:42.543+0000] {processor.py:161} INFO - Started process (PID=3376) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:58:42.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:58:42.549+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:58:42.549+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:58:43.549+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:58:43.567+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:58:43.567+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:58:43.574+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:58:43.574+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:58:43.581+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.045 seconds
+[2024-04-19T01:59:00.931+0000] {processor.py:161} INFO - Started process (PID=3389) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:59:00.936+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:59:00.937+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:59:00.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:59:01.943+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:59:01.969+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:59:01.969+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:59:01.978+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:59:01.978+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:59:01.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.065 seconds
+[2024-04-19T01:59:32.375+0000] {processor.py:161} INFO - Started process (PID=3408) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T01:59:32.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T01:59:32.382+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:59:32.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T01:59:33.354+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T01:59:33.370+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:59:33.370+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T01:59:33.376+0000] {logging_mixin.py:188} INFO - [2024-04-19T01:59:33.376+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T01:59:33.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.018 seconds
+[2024-04-19T02:00:03.779+0000] {processor.py:161} INFO - Started process (PID=3426) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:00:03.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:00:03.786+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:00:03.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:00:04.879+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:00:04.893+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:00:04.893+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T02:00:04.898+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:00:04.898+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:00:04.905+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.132 seconds
+[2024-04-19T02:00:35.103+0000] {processor.py:161} INFO - Started process (PID=3445) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:00:35.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:00:35.108+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:00:35.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:00:36.031+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:00:36.046+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:00:36.045+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T02:00:36.051+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:00:36.051+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:00:36.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 0.963 seconds
+[2024-04-19T02:01:06.482+0000] {processor.py:161} INFO - Started process (PID=3469) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:01:06.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:01:06.487+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:01:06.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:01:08.164+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:01:08.179+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:01:08.178+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T02:01:08.186+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:01:08.186+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:01:08.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.718 seconds
+[2024-04-19T02:01:38.636+0000] {processor.py:161} INFO - Started process (PID=3489) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:01:38.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:01:38.644+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:01:38.644+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:01:39.941+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:01:39.983+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:01:39.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T02:01:39.990+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:01:39.990+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:01:39.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.369 seconds
+[2024-04-19T02:02:10.140+0000] {processor.py:161} INFO - Started process (PID=3508) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:02:10.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:02:10.149+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:02:10.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:02:11.358+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:02:11.401+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:02:11.400+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T02:02:11.412+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:02:11.412+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:02:11.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.291 seconds
+[2024-04-19T02:02:41.646+0000] {processor.py:161} INFO - Started process (PID=3526) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:02:41.650+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:02:41.651+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:02:41.651+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:02:42.845+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:02:42.880+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:02:42.880+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T02:02:42.888+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:02:42.888+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:02:42.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.260 seconds
+[2024-04-19T02:03:13.187+0000] {processor.py:161} INFO - Started process (PID=3545) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:03:13.196+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:03:13.198+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:03:13.197+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:03:14.223+0000] {processor.py:840} INFO - DAG(s) 'MLOP_pro' retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:03:14.242+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:03:14.242+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-04-19T02:03:14.248+0000] {logging_mixin.py:188} INFO - [2024-04-19T02:03:14.248+0000] {dag.py:3823} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:03:14.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/airflow.py took 1.085 seconds
+[2024-04-19T02:13:48.366+0000] {processor.py:157} INFO - Started process (PID=74) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:13:48.373+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:13:48.374+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:13:48.374+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:13:48.393+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:13:48.386+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow.py", line 8, in <module>
+    from src.create import create_newfile
+  File "/opt/airflow/dags/src/create.py", line 2, in <module>
+    import xlwings as xw
+ModuleNotFoundError: No module named 'xlwings'
+[2024-04-19T02:13:48.397+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:13:48.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.082 seconds
+[2024-04-19T02:14:18.872+0000] {processor.py:157} INFO - Started process (PID=82) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:14:18.874+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:14:18.890+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:14:18.888+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:14:18.918+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:14:18.912+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow.py", line 8, in <module>
+    from src.create import create_newfile
+  File "/opt/airflow/dags/src/create.py", line 2, in <module>
+    import xlwings as xw
+ModuleNotFoundError: No module named 'xlwings'
+[2024-04-19T02:14:18.919+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:14:18.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.085 seconds
+[2024-04-19T02:14:49.322+0000] {processor.py:157} INFO - Started process (PID=90) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:14:49.326+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:14:49.332+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:14:49.331+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:14:49.343+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:14:49.341+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow.py", line 8, in <module>
+    from src.create import create_newfile
+  File "/opt/airflow/dags/src/create.py", line 2, in <module>
+    import xlwings as xw
+ModuleNotFoundError: No module named 'xlwings'
+[2024-04-19T02:14:49.344+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:14:49.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.058 seconds
+[2024-04-19T02:15:19.779+0000] {processor.py:157} INFO - Started process (PID=98) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:15:19.780+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:15:19.785+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:15:19.784+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:15:19.797+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:15:19.795+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/airflow.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow.py", line 8, in <module>
+    from src.create import create_newfile
+  File "/opt/airflow/dags/src/create.py", line 2, in <module>
+    import xlwings as xw
+ModuleNotFoundError: No module named 'xlwings'
+[2024-04-19T02:15:19.797+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:15:19.824+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.051 seconds
+[2024-04-19T02:17:05.438+0000] {processor.py:157} INFO - Started process (PID=74) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:17:05.446+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:17:05.450+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:05.450+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:17:05.867+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:05.865+0000] {font_manager.py:1547} INFO - generated new fontManager
+[2024-04-19T02:17:07.563+0000] {processor.py:839} INFO - DAG(s) dict_keys(['MLOP_pro']) retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:17:07.747+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:07.747+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-04-19T02:17:07.755+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:07.755+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-04-19T02:17:07.759+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:07.759+0000] {manager.py:499} INFO - Created Permission View: %s
+[2024-04-19T02:17:07.760+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:07.759+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-19T02:17:07.768+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:07.768+0000] {dag.py:2963} INFO - Creating ORM DAG for MLOP_pro
+[2024-04-19T02:17:07.769+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:07.769+0000] {dag.py:3722} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:17:07.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 2.351 seconds
+[2024-04-19T02:17:38.069+0000] {processor.py:157} INFO - Started process (PID=96) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:17:38.070+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:17:38.083+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:38.081+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:17:39.361+0000] {processor.py:839} INFO - DAG(s) dict_keys(['MLOP_pro']) retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:17:39.383+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:39.383+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-19T02:17:39.391+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:17:39.391+0000] {dag.py:3722} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:17:39.402+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 1.339 seconds
+[2024-04-19T02:18:09.823+0000] {processor.py:157} INFO - Started process (PID=116) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:18:09.826+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:18:09.831+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:18:09.830+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:18:10.676+0000] {processor.py:839} INFO - DAG(s) dict_keys(['MLOP_pro']) retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:18:10.702+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:18:10.702+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-19T02:18:10.708+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:18:10.708+0000] {dag.py:3722} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:18:10.715+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.900 seconds
+[2024-04-19T02:18:41.081+0000] {processor.py:157} INFO - Started process (PID=136) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:18:41.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:18:41.089+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:18:41.088+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:18:41.889+0000] {processor.py:839} INFO - DAG(s) dict_keys(['MLOP_pro']) retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:18:41.905+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:18:41.904+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-19T02:18:41.911+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:18:41.911+0000] {dag.py:3722} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:18:41.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.843 seconds
+[2024-04-19T02:19:12.129+0000] {processor.py:157} INFO - Started process (PID=156) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:19:12.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:19:12.139+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:19:12.138+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:19:13.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['MLOP_pro']) retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:19:13.038+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:19:13.037+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-19T02:19:13.045+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:19:13.045+0000] {dag.py:3722} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:19:13.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.931 seconds
+[2024-04-19T02:19:43.460+0000] {processor.py:157} INFO - Started process (PID=176) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:19:43.463+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:19:43.467+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:19:43.466+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:19:44.266+0000] {processor.py:839} INFO - DAG(s) dict_keys(['MLOP_pro']) retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:19:44.287+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:19:44.287+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-19T02:19:44.293+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:19:44.293+0000] {dag.py:3722} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:19:44.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.845 seconds
+[2024-04-19T02:20:14.753+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/airflow.py
+[2024-04-19T02:20:14.756+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/airflow.py for tasks to queue
+[2024-04-19T02:20:14.760+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:20:14.759+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/airflow.py
+[2024-04-19T02:20:15.561+0000] {processor.py:839} INFO - DAG(s) dict_keys(['MLOP_pro']) retrieved from /opt/airflow/dags/airflow.py
+[2024-04-19T02:20:15.579+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:20:15.579+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-19T02:20:15.585+0000] {logging_mixin.py:154} INFO - [2024-04-19T02:20:15.585+0000] {dag.py:3722} INFO - Setting next_dagrun for MLOP_pro to None, run_after=None
+[2024-04-19T02:20:15.595+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/airflow.py took 0.846 seconds

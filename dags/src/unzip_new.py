@@ -4,7 +4,7 @@ import os
 # Set the root directory variable using a relative path
 file_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..','..'))
 zip_name = os.path.join(file_dir, 'data','online_retail_II.zip')
-new_name = os.path.join(file_dir, 'data','Online_Retail.xlsx')
+# new_name = os.path.join(file_dir, 'data','Online_Retail.xlsx')
 fout_path = os.path.join(file_dir,'data')
 
 def unzip(filename=zip_name, output_path=fout_path):

@@ -49,7 +49,7 @@ def null_handler(input=fin_path, output=fout_path):
         print(data)
     return output
 
-# if __name__ == "__main__":
-#     unzip_f = null_handler(fin_path, fout_path)
+if __name__ == "__main__":
+    unzip_f = null_handler(fin_path, fout_path)
     
 

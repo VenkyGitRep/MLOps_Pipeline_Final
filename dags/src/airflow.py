@@ -13,7 +13,8 @@ from src.merge import merg_files
 from src.read_new import load_data
 from src.gradient_descent_model import train_sgd
 from src.decision_tree_model import train_decision_tree
-
+from src.knn_regressor_model import train_knn
+from src.model_selection import get_Best_run
 
 conf.set('core', 'enable_xcom_pickling', 'True')
 conf.set('core', 'enable_parquet_xcom', 'True')
@@ -78,8 +79,24 @@ train_decision_tree_task = PythonOperator(
     dag = dag
 )
 
+
+train_knn_task = PythonOperator(
+    task_id = 'train_knn_task',
+    python_callable= train_knn,
+    dag = dag
+)
+
+get_best_run_task = PythonOperator(
+    task_id = 'get_best_run_task',
+    python_callable= get_Best_run,
+    dag = dag
+)
+
+
 download_file_task >> unzip_file_task >> create_newfile_task >> merge_files_task \
->> preprocess_data_task >> train_sgd_task >> train_decision_tree_task
+>> preprocess_data_task >> train_sgd_task >> train_decision_tree_task >> train_knn_task >> get_best_run_task
+
+
 
 # If this script is run directly, allow command-line interaction with the DAG
 if __name__ == "__main__":

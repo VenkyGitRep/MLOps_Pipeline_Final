@@ -3,7 +3,8 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime,timedelta
 from airflow import configuration as conf
 from airflow.operators.bash import BashOperator
-
+from airflow.providers.google.cloud.log.gcs_task_handler import GCSFileHandler
+import logging
 
 
 from src.download_new import download_file
@@ -19,7 +20,13 @@ from src.groupby import groupby
 from src.outliers import outlier_handler
 from src.splitdata import split_data
 
+# Define the GCS bucket and path where logs will be stored
+GCS_BUCKET = 'dvc_bucket_mlops_lab'
+GCS_LOG_PATH = 'logs/airflow.log'
 
+# Configure logging to use GCSFileHandler
+log_handler = GCSFileHandler(filename=f'gs://{GCS_BUCKET}/{GCS_LOG_PATH}')
+log_handler.setLevel(logging.INFO)
 
 conf.set('core', 'enable_xcom_pickling', 'True')
 conf.set('core', 'enable_parquet_xcom', 'True')
@@ -125,6 +132,35 @@ dvc_push = BashOperator(
     bash_command='dvc push',
     dag=dag,
 )
+
+
+# Define a simple Python function to be executed by the DAG
+def print_hello():
+    logging.info("Hello, Airflow!")
+    logging.warning("This is a warning!")
+    logging.error("This is an error!")
+
+# Create a PythonOperator to execute the print_hello function
+task = PythonOperator(
+    task_id='print_hello_task',
+    python_callable=print_hello,
+    dag=dag,
+)
+
+
+# Set the log handler for the DAG to use GCSFileHandler
+dag.logger.addHandler(log_handler)
+
+# Set the log level for the DAG
+dag.logger.setLevel(logging.INFO)
+
+# Set the log handler for the task to use GCSFileHandler
+task.logger.addHandler(log_handler)
+
+# Set the log level for the task
+task.logger.setLevel(logging.INFO)
+
+task
 
 download_file_task >> unzip_file_task >> create_newfile_task >> merge_files_task \
 >> load_data_task >> null_handler_task >> handle_duplicates_task >> total_cost_task \

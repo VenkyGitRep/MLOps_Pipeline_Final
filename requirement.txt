@@ -16,6 +16,7 @@ apache-airflow-providers-ftp==3.5.1
 apache-airflow-providers-http==4.5.1
 apache-airflow-providers-imap==3.3.1
 apache-airflow-providers-sqlite==3.4.3
+apache-airflow-providers-google==2.1.0
 Flask==2.2.5
 Flask-AppBuilder==4.3.6
 Flask-Babel==2.0.0
@@ -46,3 +47,4 @@ grpcio==1.51.3
 google-cloud-logging
 google-cloud-bigquery
 google-auth
+cached-property

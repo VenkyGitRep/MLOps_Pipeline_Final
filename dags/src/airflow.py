@@ -3,7 +3,9 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime,timedelta
 from airflow import configuration as conf
 from airflow.operators.bash import BashOperator
-
+from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
+from airflow.providers.slack.operators.slack_webhook import SlackWebhookOperator
+import os
 
 from src.preprocess import write_preprocessed_data
 from src.download_new import download_file
@@ -66,6 +68,24 @@ preprocess_data_task = PythonOperator(
     dag = dag
 )
 
+
+upload_processesd_data_gcs = LocalFilesystemToGCSOperator(
+    task_id=f'upload_processesd_data_gcs',
+    src=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..','..')), 'data','output.csv'),
+    dst=os.path.join('processed_output_data','output.csv'),
+    bucket='dvc_bucket_mlops_lab',
+    gcp_conn_id='mlops_gs',
+    dag = dag
+)
+
+slack_processing_complete = SlackWebhookOperator(
+    task_id = 'slack_processing_complete',
+    slack_webhook_conn_id = 'mlops_slack_alerts',
+    message = "Processed data has been uploaded to Google cloud storage bucket.",
+    channel = '#mlops_alerts',
+    dag = dag,
+)
+
 train_sgd_task = PythonOperator(
     task_id = 'train_sgd_task',
     python_callable= train_sgd,
@@ -93,8 +113,19 @@ get_best_run_task = PythonOperator(
 )
 
 
+
+send_slack_notification = SlackWebhookOperator(
+    task_id = 'send_slack_notification',
+    slack_webhook_conn_id = 'mlops_slack_alerts',
+    message = "Your datapipeline is complete.",
+    channel = '#mlops_alerts',
+    dag = dag,
+)
+
+
 download_file_task >> unzip_file_task >> create_newfile_task >> merge_files_task \
->> preprocess_data_task >> train_sgd_task >> train_decision_tree_task >> train_knn_task >> get_best_run_task
+>> preprocess_data_task >> upload_processesd_data_gcs >> slack_processing_complete >> [train_sgd_task \
+, train_decision_tree_task , train_knn_task] >> get_best_run_task >>  send_slack_notification
 
 
 

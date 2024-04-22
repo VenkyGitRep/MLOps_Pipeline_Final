@@ -2,6 +2,9 @@ from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime,timedelta
 from airflow import configuration as conf
+from airflow.operators.bash import BashOperator
+
+
 
 from src.download_new import download_file
 from src.unzip_new import unzip
@@ -110,9 +113,22 @@ split_data_task = PythonOperator(
     dag = dag 
 )
 
+dvc_add = BashOperator(
+    task_id='dvc_add',
+    bash_command='dvc add data/transformation/missing.pkl',
+    dag=dag,
+    log_output=True  # Enable logging of command output
+)
+
+dvc_push = BashOperator(
+    task_id='dvc_push',
+    bash_command='dvc push',
+    dag=dag,
+)
+
 download_file_task >> unzip_file_task >> create_newfile_task >> merge_files_task \
 >> load_data_task >> null_handler_task >> handle_duplicates_task >> total_cost_task \
->> date_format_task >> groupby_task >> outlier_handler_task >> split_data_task
+>> date_format_task >> groupby_task >> outlier_handler_task >> split_data_task >> dvc_add >> dvc_push
 
 # If this script is run directly, allow command-line interaction with the DAG
 if __name__ == "__main__":

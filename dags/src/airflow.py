@@ -5,20 +5,14 @@ from airflow import configuration as conf
 from airflow.operators.bash import BashOperator
 
 
-
+from src.preprocess import write_preprocessed_data
 from src.download_new import download_file
 from src.unzip_new import unzip
 from src.create import create_newfile
 from src.merge import merg_files
 from src.read_new import load_data
-from src.missing import null_handler
-from src.duplicates import handle_duplicates
-from src.total_cost import total_cost
-from src.dateformat import date_format
-from src.groupby import groupby
-from src.outliers import outlier_handler
-from src.splitdata import split_data
-
+from src.gradient_descent_model import train_sgd
+from src.decision_tree_model import train_decision_tree
 
 
 conf.set('core', 'enable_xcom_pickling', 'True')
@@ -65,58 +59,27 @@ merge_files_task = PythonOperator(
     dag = dag
 )
 
-load_data_task = PythonOperator(
-    task_id = 'load_data_task',
-    python_callable= load_data,
+preprocess_data_task = PythonOperator(
+    task_id = 'preprocess_data_task',
+    python_callable= write_preprocessed_data,
     dag = dag
 )
 
-null_handler_task = PythonOperator(
-    task_id='null_handler_task',
-    python_callable=null_handler,
-    dag=dag,
+train_sgd_task = PythonOperator(
+    task_id = 'train_sgd_task',
+    python_callable= train_sgd,
+    dag = dag
 )
 
-handle_duplicates_task = PythonOperator(
-    task_id = 'handle_duplicates_task',
-    python_callable= handle_duplicates,
-    dag=dag,
-)
 
-total_cost_task = PythonOperator(
-    task_id = 'total_cost_task',
-    python_callable=total_cost,
-    dag=dag,
+train_decision_tree_task = PythonOperator(
+    task_id = 'train_decision_tree_task',
+    python_callable= train_decision_tree,
+    dag = dag
 )
-
-date_format_task = PythonOperator(
-    task_id = 'date_format_task',
-    python_callable= date_format,
-    dag=dag,
-)
-
-groupby_task = PythonOperator(
-    task_id = 'groupby_task',
-    python_callable=groupby,
-    dag = dag  
-)
-
-outlier_handler_task = PythonOperator(
-    task_id = 'outlier_handler_task',
-    python_callable=outlier_handler,
-    dag = dag 
-)
-
-split_data_task = PythonOperator(
-    task_id = 'split_data_task',
-    python_callable=split_data,
-    dag = dag 
-)
-
 
 download_file_task >> unzip_file_task >> create_newfile_task >> merge_files_task \
->> load_data_task >> null_handler_task >> handle_duplicates_task >> total_cost_task \
->> date_format_task >> groupby_task >> outlier_handler_task >> split_data_task 
+>> preprocess_data_task >> train_sgd_task >> train_decision_tree_task
 
 # If this script is run directly, allow command-line interaction with the DAG
 if __name__ == "__main__":

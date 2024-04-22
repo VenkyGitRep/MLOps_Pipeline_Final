@@ -74,7 +74,6 @@ x-airflow-common:
     # for other purpose (development, test and especially production usage) build/extend Airflow image.
     #
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-
-      xlwings
       scikit-learn==1.3.2 
       numpy==1.24.4
       pandas==1.5.3
@@ -108,7 +107,8 @@ x-airflow-common:
       joblib==1.3.2
       threadpoolctl
       pillow==9.1.0
-      pyarrow==10.0.1}
+      pyarrow==10.0.1
+      }
       #tensorflow-data-validation==1.14.0 -I}
       
   volumes:

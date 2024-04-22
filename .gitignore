@@ -4,3 +4,4 @@ logs/*
 data/*
 *.json
 .dvc
+.DS_Store

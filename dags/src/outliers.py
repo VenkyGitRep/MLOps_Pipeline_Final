@@ -35,7 +35,7 @@ def outlier_handler(input = fin_path, output = fout_path, threshold = 1.5):
     # identify outliers
     outliers = df[(df['Quantity'] < Q1 - threshold * IQR) | (df['Quantity'] > Q3 + threshold * IQR)]
     df = df.drop(outliers.index)
-    
+    #df.loc[2, 'Quantity'] = 3
     with open(output, "wb") as f:
         pickle.dump(df, f) 
     #print out the data to see the structure

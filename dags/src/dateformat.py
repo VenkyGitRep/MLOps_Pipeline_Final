@@ -24,5 +24,5 @@ def date_format(input = fin_path,output = fout_path):
         print(data)
     return output
 
-# if __name__ == "__main__":
-#     unzip_f = date_format(fin_path, fout_path)
+if __name__ == "__main__":
+    unzip_f = date_format(fin_path, fout_path)

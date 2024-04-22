@@ -40,6 +40,6 @@ def load_data(input=input_pickle_path, csv_path=data_path):
         print(data)
     return input
 
-# if __name__ == "__main__":
-#     unzip_f = load_data(input_pickle_path, data_path)
+if __name__ == "__main__":
+    unzip_f = load_data(input_pickle_path, data_path)
 

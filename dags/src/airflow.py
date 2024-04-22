@@ -39,7 +39,7 @@ dag = DAG(
 download_file_task = PythonOperator(
     task_id='download_file_task',
     python_callable=download_file,
-    op_args=["https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip"],
+    # op_args=["https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip"],
     dag=dag,
 )
 
@@ -53,84 +53,60 @@ unzip_file_task = PythonOperator(
 create_newfile_task = PythonOperator(
     task_id='create_newfile_task',
     python_callable=create_newfile,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="unzip_file_task") }}',
-    },
     dag=dag,
 )
+
 merge_files_task = PythonOperator(
     task_id = 'merge_files_task',
     python_callable = merg_files,
-    op_kwargs = {
-        'input': '{{ ti.xcom_pull(task_ids="create_newfile_task") }}'
-    },
     dag = dag
 )
 
 load_data_task = PythonOperator(
     task_id = 'load_data_task',
     python_callable= load_data,
-    op_kwargs = {
-        'csv_path': '{{ ti.xcom_pull(task_ids="merge_files_task") }}'
-    },
     dag = dag
 )
 
 null_handler_task = PythonOperator(
     task_id='null_handler_task',
     python_callable=null_handler,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="load_data_task") }}',
-    },
     dag=dag,
 )
+
 handle_duplicates_task = PythonOperator(
     task_id = 'handle_duplicates_task',
     python_callable= handle_duplicates,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="null_handler_task") }}',
-    },
     dag=dag,
 )
 
 total_cost_task = PythonOperator(
     task_id = 'total_cost_task',
     python_callable=total_cost,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="handle_duplicates_task") }}',
-    },
     dag=dag,
 )
+
 date_format_task = PythonOperator(
     task_id = 'date_format_task',
     python_callable= date_format,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="total_cost_task") }}',
-    },
     dag=dag,
 )
+
 groupby_task = PythonOperator(
     task_id = 'groupby_task',
     python_callable=groupby,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="date_format_task") }}',
-    },
     dag = dag  
 )
+
 outlier_handler_task = PythonOperator(
     task_id = 'outlier_handler_task',
     python_callable=outlier_handler,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="date_format_task") }}',
-    },
     dag = dag 
 )
+
 split_data_task = PythonOperator(
     task_id = 'split_data_task',
     python_callable=split_data,
-    op_kwargs={
-        'input': '{{ ti.xcom_pull(task_ids="outlier_handler_task") }}',
-    },
     dag = dag 
 )
 
@@ -141,3 +117,5 @@ download_file_task >> unzip_file_task >> create_newfile_task >> merge_files_task
 # If this script is run directly, allow command-line interaction with the DAG
 if __name__ == "__main__":
     dag.cli()
+    
+    

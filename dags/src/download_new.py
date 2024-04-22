@@ -20,7 +20,6 @@ def download_file(file_url=url):
         os.makedirs(final_directory)
     root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..','..'))
     zipfile_path=os.path.join(root_dir, 'data','Online_Retail_II.zip')
-    
     #see if the request is successful
     if downloaded.status_code == 200:
         with open(zipfile_path, "wb") as file:

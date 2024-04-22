@@ -39,5 +39,5 @@ def split_data(input = fin_path, output_train = train_path, output_test = test_p
         print(data)
     return output_train,output_test
 
-# if __name__ == "__main__":
-#     unzip_f = split_data(fin_path, train_path,test_path)
+if __name__ == "__main__":
+    unzip_f = split_data(fin_path, train_path,test_path)

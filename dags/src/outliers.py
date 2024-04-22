@@ -44,6 +44,6 @@ def outlier_handler(input = fin_path, output = fout_path, threshold = 1.5):
         print(data)
     return output
 
-# if __name__ == "__main__":
-#     unzip_f = outlier_handler(fin_path, fout_path)
+if __name__ == "__main__":
+    unzip_f = outlier_handler(fin_path, fout_path)
         

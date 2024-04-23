@@ -1,25 +1,38 @@
 import mlflow
 import mlflow.sklearn
 import pandas as pd
-def get_Best_run():
-    # Search for runs and retrieve logged metrics
 
+
+"""
+This provides methods to retrieve the best MLflow run based on logged metrics 
+and make predictions using the loaded model.
+"""
+
+def get_best_run():
+    """
+    Retrieves the best MLflow run based on logged metrics, loads the corresponding model,
+    and makes predictions using the loaded model.
+    """
+    # Search for runs and retrieve logged metrics
     runs = mlflow.search_runs()
-    print("Number of runs:",len(runs))
+    print("Number of runs:", len(runs))
     print(runs[['run_id', 'metrics.MSE']])
 
     # Find the run with the least MSE
     best_run = runs.loc[runs['metrics.MSE'].idxmin()]
-    print("Best run:",best_run)
+    print("Best run:", best_run)
     best_run_id = best_run['run_id']
-    print("Best run id:",best_run_id)
+    print("Best run id:", best_run_id)
     best_run_name = best_run['tags.mlflow.runName']
-    print("Best run name:",best_run_name)
+    print("Best run name:", best_run_name)
+
     # Load the model from the specified run
     loaded_model = mlflow.sklearn.load_model(f"runs:/{best_run_id}/{best_run_name}")
     print(loaded_model)
 
+    # Load the dataset
     data = pd.read_csv('data/output.csv')
+
     # Select a random sample from the dataset
     random_sample = data.sample(n=2)  # Adjust the number of samples as needed
 
@@ -29,7 +42,7 @@ def get_Best_run():
     # Make predictions using the loaded model
     predictions = loaded_model.predict(X)
 
-    print("Prediciton made:",predictions)
+    print("Predictions made:", predictions)
 
-if __name__=="__main__":
-    get_Best_run()
+if __name__ == "__main__":
+    get_best_run()

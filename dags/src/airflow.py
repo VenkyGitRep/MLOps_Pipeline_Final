@@ -69,8 +69,8 @@ preprocess_data_task = PythonOperator(
 )
 
 
-upload_processesd_data_gcs = LocalFilesystemToGCSOperator(
-    task_id=f'upload_processesd_data_gcs',
+upload_processed_data_gcs = LocalFilesystemToGCSOperator(
+    task_id=f'upload_processed_data_gcs',
     src=os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__), '..','..')), 'data','output.csv'),
     dst=os.path.join('processed_output_data','output.csv'),
     bucket='dvc_bucket_mlops_lab',
@@ -124,7 +124,7 @@ send_slack_notification = SlackWebhookOperator(
 
 
 download_file_task >> unzip_file_task >> create_newfile_task >> merge_files_task \
->> preprocess_data_task >> upload_processesd_data_gcs >> slack_processing_complete >> [train_sgd_task \
+>> preprocess_data_task >> upload_processed_data_gcs >> slack_processing_complete >> [train_sgd_task \
 , train_decision_tree_task , train_knn_task] >> get_best_run_task >>  send_slack_notification
 
 

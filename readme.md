@@ -69,3 +69,25 @@ The MLflow interface also enables us to perform complex queries to filter runs, 
 Through MLflow, we establish a structured and scalable approach to experimenting with various models, thereby enhancing our capability to manage and optimize machine learning workflows.
 
 ![alt text](<images_report/ML_Flow_Dashboard.png>)
+
+## Model Performance Comparison in MLflow
+
+The MLflow tracking system provides a detailed comparison of model performance across three key metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and the coefficient of determination (R2). Here's a snapshot of the tracked metrics for our three models: SGD Regressor, KNN Regressor, and Decision Tree Regressor.
+
+### Mean Absolute Error (MAE)
+- **SGD Regressor**: Demonstrates a relatively low MAE, suggesting a closer average predicted value to the actual data points.
+- **KNN Regressor**: Exhibits a MAE value in the same range as the SGD Regressor, indicating comparable average accuracy.
+- **Decision Tree Regressor**: Shows varied MAE results across different runs, hinting at potential overfitting or sensitivity to the dataset's features.
+
+### Mean Squared Error (MSE)
+- **SGD Regressor**: Presents a consistent MSE, reflecting a stable prediction error across multiple runs.
+- **KNN Regressor**: Reports a similar MSE to the SGD Regressor, affirming its reliable prediction capability.
+- **Decision Tree Regressor**: The MSE varies significantly, which could be due to the complexity of the model and its interaction with different data splits.
+
+### R-Squared (R2)
+- **SGD Regressor**: The R2 score is close to 0, suggesting that the model may not be capturing all the variability in the data.
+- **KNN Regressor**: Similar to the SGD, its R2 score is around 0, indicating room for improvement in model performance.
+- **Decision Tree Regressor**: Exhibits erratic R2 values, some of which are negative, implying that certain runs of the model perform worse than a horizontal line fit.
+
+The MLflow charts illustrate the need for careful model selection and hyperparameter tuning. By leveraging MLflow’s visualization capabilities, we can better understand model behaviors and guide the refinement of our predictive models for enhanced stock price prediction accuracy.
+![alt text](<images_report/ML_flow_visualization.png>)

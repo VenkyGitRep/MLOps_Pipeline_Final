@@ -47,3 +47,25 @@ Following the training, the `get_best_run_task` is engaged to evaluate each mode
 
 The DAG concludes with a `send_slack_notification` task, signaling the successful completion of the pipeline and the readiness of the chosen model for deployment or further evaluation.
 ![alt text](<images_report/Airflow_DAGs.png>)
+
+## Experimental Tracking with MLflow
+
+MLflow provides a robust platform for managing the machine learning lifecycle, including experimentation, reproducibility, and deployment. Below is a snapshot of the MLflow tracking interface, capturing various runs of the machine learning models trained during our experiments:
+
+- **Run Name**: Indicates the type of model trained during each run. For example, `knn_regressor` represents a K-Nearest Neighbors regressor model.
+
+- **Created**: Shows the timestamp of when the model training was initiated, providing insights into the duration and recentness of each experiment.
+
+- **Duration**: Reflects the time taken to train each model, which is crucial for understanding the computational efficiency of different algorithms.
+
+- **Source**: This column provides a link to the specific execution source, which could be a notebook or a script, facilitating traceability and reproducibility of the experiments.
+
+- **Models**: Indicates the models that were output from each run, with a direct link to the stored model for ease of access and further analysis.
+
+In our MLflow dashboard, we can observe the runs of different models like `sgd_regressor`, `DecisionTreeRegressor`, and `knn_regressor`. Each run is logged with comprehensive details, allowing us to track the performance of different algorithms systematically. By comparing metrics across these runs, we can determine the best-performing model for our stock price prediction objective.
+
+The MLflow interface also enables us to perform complex queries to filter runs, such as `metrics.rmse < 1 and params.model == "tree"`—demonstrating its powerful search capabilities for identifying the most promising models based on specified criteria.
+
+Through MLflow, we establish a structured and scalable approach to experimenting with various models, thereby enhancing our capability to manage and optimize machine learning workflows.
+
+![alt text](<images_report/ML_Flow_Dashboard.png>)

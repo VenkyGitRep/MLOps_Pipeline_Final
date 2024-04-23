@@ -37,3 +37,13 @@ The data pipeline is built using Apache Airflow and consists of the following Di
 
 - **send_slack_notification**: Sends a notification to a Slack channel specified by '#mlops_alerts' using a webhook connection named 'mlops_slack_alerts'. The message "Your datapipeline is complete." indicates the completion of the data pipeline execution.
 
+## Airflow DAG Overview
+
+The visual represents the Directed Acyclic Graph (DAG) designed in Apache Airflow for our machine learning pipeline. It is constructed to ensure a seamless sequence of tasks, from data preparation to model training and final notifications.
+
+The model training tasks for SGD Regressor, Decision Tree Regressor, and K-Nearest Neighbors are configured to run in parallel. This design demonstrates an efficient use of resources, allowing multiple models to be trained simultaneously, following the successful completion of the preprocessing task.
+
+Following the training, the `get_best_run_task` is engaged to evaluate each model against set performance metrics. The model that exhibits the best metrics is flagged as the 'best model.' This strategy ensures that our pipeline not only trains multiple models but also selects the most effective one, reflecting our commitment to accuracy and reliability in stock price prediction.
+
+The DAG concludes with a `send_slack_notification` task, signaling the successful completion of the pipeline and the readiness of the chosen model for deployment or further evaluation.
+![alt text](<images_report/Airflow_DAGs.png>)

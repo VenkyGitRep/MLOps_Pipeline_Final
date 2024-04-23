@@ -91,3 +91,34 @@ The MLflow tracking system provides a detailed comparison of model performance a
 
 The MLflow charts illustrate the need for careful model selection and hyperparameter tuning. By leveraging MLflow’s visualization capabilities, we can better understand model behaviors and guide the refinement of our predictive models for enhanced stock price prediction accuracy.
 ![alt text](<images_report/ML_flow_visualization.png>)
+
+## Staging best model to production
+![alt text](<images_report/Best_model_Staging.png>)
+In `get_best_run_task` to transition the best-performing model to production, the code performs the following actions:
+
+1. **Model Registration**: It first registers the model under a specified name (`"best_MSE_model"`) in the MLflow Model Registry by referencing the run ID and name of the best model obtained from previous steps.
+
+2. **Model Versioning**: Upon registration, MLflow assigns a version to the newly registered model. This versioning allows for tracking iterations of the models and managing the model lifecycle.
+
+3. **Production Staging**: Using an instance of `MlflowClient`, the code then transitions the model's version to the "Production" stage. This step effectively designates the model as ready for production use.
+
+By executing these steps, we ensure that the model with the best Mean Squared Error (MSE) metric is not only tracked and versioned but also staged for production, thus making it the de facto model for future predictions in a live environment.
+
+
+## Hyperparameter Tuning and Model Exploration
+
+Throughout the data exploration and model fine-tuning stages, we've utilized MLFlow to manage and track multiple runs across three models. These steps have been meticulously documented in the following notebook: [Hyperparameter Tuning and Model Exploration Notebook](MLOps_Stock_price_prediction_notebook.ipynb).
+
+Within this notebook, we've undertaken critical steps to prepare our data for the modeling process:
+- Cleansing of the dataset by removing null values and filling in missing quantities.
+- Conducting label encoding for categorical features such as 'Country' and 'Stock Codes'.
+
+We explored a range of models including:
+- Linear Regressors
+- K-Nearest Neighbors (KNN)
+- Random Forest
+- Decision Tree
+- Deep Neural Network
+
+This process helped us identify the most effective model for our scenario. The insights gained from these experiments were then seamlessly integrated into the data pipeline, enhancing our model's predictive performance.
+

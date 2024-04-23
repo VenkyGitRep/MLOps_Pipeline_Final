@@ -1,8 +1,7 @@
 import mlflow
 import mlflow.sklearn
 import pandas as pd
-
-
+from mlflow.tracking import MlflowClient
 """
 This provides methods to retrieve the best MLflow run based on logged metrics 
 and make predictions using the loaded model.
@@ -43,6 +42,17 @@ def get_best_run():
     predictions = loaded_model.predict(X)
 
     print("Predictions made:", predictions)
+
+
+    
+    model_name = "best_MSE_model"
+    model_version = mlflow.register_model(f"runs:/{best_run_id}/{best_run_name}", model_name)
+    client = MlflowClient()
+    client.transition_model_version_stage(
+    name=model_name,
+    version=model_version.version,
+    stage="Production",
+    )
 
 if __name__ == "__main__":
     get_best_run()

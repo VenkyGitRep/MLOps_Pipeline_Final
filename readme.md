@@ -122,3 +122,15 @@ We explored a range of models including:
 
 This process helped us identify the most effective model for our scenario. The insights gained from these experiments were then seamlessly integrated into the data pipeline, enhancing our model's predictive performance.
 
+## Monitoring through DAGs
+
+As part of our operational monitoring, we have implemented two critical DAGs to streamline the workflow:
+
+- **Google Cloud Storage Upload**: Post data processing, the resulting CSV file is automatically uploaded to Google Cloud Storage. This ensures that the processed data is stored securely and is accessible for further analysis or model training.
+![alt text](images_report/gs_data_bucket.png)
+- **Slack Notifications**: To enhance communication and alerting, we've established a DAG that triggers notifications to the Slack channel `#mlops_alerts`. Notifications are sent when:
+  - The model has been successfully uploaded to Google Cloud Storage.
+  - The pipeline execution has completed.
+
+These automated notifications are integral to maintaining a smooth workflow, enabling real-time updates and immediate attention to the pipeline's status.
+![alt text](<images_report/slack_alerts.png>)

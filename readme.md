@@ -1,4 +1,4 @@
-# Machine Learning Operations - Model Pipeline for Stock Price Prediction
+# Machine Learning Operations - Model Pipeline for Retail Price Prediction
 
 ## Problem Statement
 We aim to predict stock prices using two years of data from the Online Retail Dataset, which includes sales of stocks in the United Kingdom and other parts of Europe. While it is recognized that using historical data to predict stock prices may not be effective in real-world scenarios, this dataset serves the purpose of building the infrastructure for model training and deployment in this project.

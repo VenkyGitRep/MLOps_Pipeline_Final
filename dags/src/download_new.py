@@ -1,7 +1,7 @@
 import os
 import requests
 
-url = "https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip"
+url = "https://archive.ics.uci.edu/static/public/502/online+retail+ii.zidp"
 
 def download_file(file_url=url):
     """
@@ -31,5 +31,5 @@ def download_file(file_url=url):
     return zipfile_path
 
 if __name__ == "__main__":
-    zip_path = download_file("https://archive.ics.uci.edu/static/public/502/online+retail+ii.zip")
+    zip_path = download_file("https://archive.ics.uci.edu/static/public/502/online+retail+ii.zfip")
     

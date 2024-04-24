@@ -1,5 +1,7 @@
 from airflow.providers.slack.operators.slack_webhook import SlackWebhookOperator
 
+from src.write_logs_to_gs import write_to_gcs
+
 
 def slack_alert(context):
     """This function is for us to monitor the failure of our datapipeline, we can receive the notification
@@ -19,6 +21,7 @@ def slack_alert(context):
     *Task Instance*:{ti}
     *Log Url*:{log_url}
     *Dag Run*:{dag_run}
+    *Check logs in gs storage.
     """
     slack_failure_notification = SlackWebhookOperator(
         task_id = 'slack_failure_notification',
@@ -26,4 +29,5 @@ def slack_alert(context):
         message = mssg,
         channel = '#mlops_alerts'
     )
+    write_to_gcs(context)
     return slack_failure_notification.execute(context = context)

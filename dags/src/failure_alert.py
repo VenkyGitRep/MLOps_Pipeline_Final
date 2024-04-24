@@ -16,7 +16,6 @@ def slack_alert(context):
     :red_circle:Pipeline Failed.
     *Dag*:{dag_name}
     *Task*:P{task_name}
-    *Execution Date*:{execution_date}
     *Task Instance*:{ti}
     *Log Url*:{log_url}
     *Dag Run*:{dag_run}

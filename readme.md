@@ -131,6 +131,8 @@ As part of our operational monitoring, we have implemented two critical DAGs to 
 - **Slack Notifications**: To enhance communication and alerting, we've established a DAG that triggers notifications to the Slack channel `#mlops_alerts`. Notifications are sent when:
   - The model has been successfully uploaded to Google Cloud Storage.
   - The pipeline execution has completed.
+  - When the data pipeline fails, we get notified through the slack.
 
 These automated notifications are integral to maintaining a smooth workflow, enabling real-time updates and immediate attention to the pipeline's status.
 ![alt text](<images_report/slack_alerts.png>)
+![alt text](<images_report/slack_error_notification.png>)

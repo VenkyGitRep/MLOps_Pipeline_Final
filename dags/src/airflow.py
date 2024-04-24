@@ -7,6 +7,7 @@ from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesyste
 from airflow.providers.slack.operators.slack_webhook import SlackWebhookOperator
 import os
 
+from src.failure_alert import slack_alert
 from src.preprocess import write_preprocessed_data
 from src.download_new import download_file
 from src.unzip_new import unzip
@@ -16,10 +17,14 @@ from src.read_new import load_data
 from src.gradient_descent_model import train_sgd
 from src.decision_tree_model import train_decision_tree
 from src.knn_regressor_model import train_knn
-from src.model_selection import get_Best_run
+from src.model_selection import get_best_run
+"""Configurations for all of the tasks in the DAG and define the dependencies of the tasks.
 
+
+"""
 conf.set('core', 'enable_xcom_pickling', 'True')
 conf.set('core', 'enable_parquet_xcom', 'True')
+
 
 default_args = {
     'owner': 'Group_9',
@@ -33,6 +38,7 @@ dag = DAG(
     default_args=default_args,
     description='IE7374_project',
     schedule_interval=None, 
+    on_failure_callback = slack_alert,
     catchup=False,
 )
 
@@ -108,7 +114,7 @@ train_knn_task = PythonOperator(
 
 get_best_run_task = PythonOperator(
     task_id = 'get_best_run_task',
-    python_callable= get_Best_run,
+    python_callable= get_best_run,
     dag = dag
 )
 
